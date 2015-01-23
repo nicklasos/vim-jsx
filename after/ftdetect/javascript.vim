@@ -8,3 +8,5 @@
 
 autocmd BufNewFile,BufRead *.jsx let b:jsx_ext_found = 1
 autocmd BufNewFile,BufRead *.jsx set filetype=javascript
+autocmd BufNewFile,BufRead *.tag let b:jsx_ext_found = 1
+autocmd BufNewFile,BufRead *.tag set filetype=javascript
